@@ -6,7 +6,12 @@
 #include <string>
 #include <cstdint>
 
-#define CAPACITY 5000
+//CAPACITY is a constant value (5000) that is used throughout the code.
+#define CAPACITY 5000 
+
+/*
+DEBUG is a flag that controls whether certain debug-related code is included in the compilation. Its presence or absence doesn't affect the behavior of the program at runtime, but it does affect which parts of the code are compiled.
+*/
 #define DEBUG
 
 int main(){
