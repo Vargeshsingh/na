@@ -10,9 +10,9 @@ int main(){
     int32_t sgn;
     uint32_t unsgn;
 
-    flt = -7.66;
-    sgn = flt;
-    unsgn = sgn;
+    flt = -7.66;//-7.66
+    sgn = flt;//-7
+    unsgn = sgn;//4294967289 or (int32_t) unsgn//-7
 
     std::cout << " float: " << flt << std::endl;
     std::cout << " int32: " << sgn << std::endl;
